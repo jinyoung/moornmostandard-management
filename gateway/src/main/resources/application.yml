@@ -12,7 +12,7 @@ spring:
         - id: Standard Management
           uri: http://localhost:8082
           predicates:
-            - Path=/authGrps/**, /authUsers/**, /authorities/**, /undefined/**, 
+            - Path=/authGrps/**, /authUsers/**, /authorities/**, /codes/**, 
         - id: frontend
           uri: http://localhost:8080
           predicates:
@@ -40,7 +40,7 @@ spring:
         - id: Standard Management
           uri: http://standardManagement:8080
           predicates:
-            - Path=/authGrps/**, /authUsers/**, /authorities/**, /undefined/**, 
+            - Path=/authGrps/**, /authUsers/**, /authorities/**, /codes/**, 
         - id: frontend
           uri: http://frontend:8080
           predicates:

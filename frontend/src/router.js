@@ -11,8 +11,8 @@ import StandardManagementAuthUserManager from "./components/listers/StandardMana
 import StandardManagementAuthUserDetail from "./components/listers/StandardManagementAuthUserDetail"
 import StandardManagementAuthorityManager from "./components/listers/StandardManagementAuthorityCards"
 import StandardManagementAuthorityDetail from "./components/listers/StandardManagementAuthorityDetail"
-import Manager from "./components/listers/Cards"
-import Detail from "./components/listers/Detail"
+import StandardManagementCodeManager from "./components/listers/StandardManagementCodeCards"
+import StandardManagementCodeDetail from "./components/listers/StandardManagementCodeDetail"
 
 
 export default new Router({
@@ -50,14 +50,14 @@ export default new Router({
                 component: StandardManagementAuthorityDetail
             },
             {
-                path: '//',
-                name: 'Manager',
-                component: Manager
+                path: '/standardManagements/codes',
+                name: 'StandardManagementCodeManager',
+                component: StandardManagementCodeManager
             },
             {
-                path: '///:id',
-                name: 'Detail',
-                component: Detail
+                path: '/standardManagements/codes/:id',
+                name: 'StandardManagementCodeDetail',
+                component: StandardManagementCodeDetail
             },
 
 

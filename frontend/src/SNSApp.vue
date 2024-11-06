@@ -69,13 +69,13 @@
 
                     <v-list-item
                         class="px-2"
-                        key=""
-                        to="//"
+                        key="codes"
+                        to="/standardManagements/codes"
                         @click="changeUrl()"
                         color="primary"
                         style="font-weight:700;"
                     >
-                        
+                        Code
                     </v-list-item>
 
 
@@ -179,10 +179,10 @@ export default {
                 ImageUrl: '',
             },
             { 
-                title: '', 
+                title: 'Code', 
                 description: '', 
-                key: '', 
-                route: '//',
+                key: 'codes', 
+                route: '/standardManagements/codes',
                 ImageUrl: '',
             },
             

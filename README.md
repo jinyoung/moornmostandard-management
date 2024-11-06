@@ -35,7 +35,7 @@ mvn spring-boot:run
  http :8088/authGrps agNo="agNo" authCode="authCode" authName="authName" authSer="authSer" memo="memo" regiNm="regiNm" regiDt="regiDt" modiNm="modiNm" modiDt="modiDt" groupDetails="groupDetails" 
  http :8088/authUsers auNo="auNo" authCode="authCode" workerNo="workerNo" regiNm="regiNm" regiDt="regiDt" modiNm="modiNm" modiDt="modiDt" userDetails="userDetails" 
  http :8088/authorities auNo="auNo" menuCode="menuCode" authType="authType" authCode="authCode" authMode="authMode" regiNm="regiNm" regiDt="regiDt" modiNm="modiNm" modiDt="modiDt" authorityDetails="authorityDetails" 
- http :8088/ 
+ http :8088/codes itemCode="item_code" codeNo="code_no" code="code" codeName="code_name" isSys="is_sys" isUse="is_use" codeEtc="codeEtc" 
 ```
 
 
